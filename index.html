@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,33 +7,125 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <h1>Lista de Compras</h1>
+
     <div class="container">
-        <h1>Lista de Compras</h1>
-        <ul id="shopping-list">
-            <li>
-                <input type="checkbox" id="banana" class="checkbox">
-                <label for="banana">Banana</label>
-            </li>
-            <li>
-                <input type="checkbox" id="mamao" class="checkbox">
-                <label for="mamao">Mamão</label>
-            </li>
-            <li>
-                <input type="checkbox" id="melao" class="checkbox">
-                <label for="melao">Melão</label>
-            </li>
-            <li>
-                <input type="checkbox" id="abacaxi" class="checkbox">
-                <label for="abacaxi">Abacaxi</label>
-            </li>
-            <li>
-                <input type="checkbox" id="abacate" class="checkbox">
-                <label for="abacate">Abacate</label>
-            </li>
-        </ul>
-        <button id="clear-btn">Limpar Lista</button>
+        <!-- Hortifruti -->
+        <div class="section">
+            <h2>Hortifruti</h2>
+            <ul>
+                <li><input type="checkbox">Abacate</li>
+                <li><input type="checkbox">Abacaxi</li>
+                <li><input type="checkbox">Banana</li>
+                <li><input type="checkbox">Laranja</li>
+                <li><input type="checkbox">Maçã</li>
+                <li><input type="checkbox">Mamão</li>
+                <li><input type="checkbox">Melão</li>
+                <li><input type="checkbox">Tomate</li>
+                <li><input type="checkbox">Pimentão</li>
+                <li><input type="checkbox">Cebola</li>
+                <li><input type="checkbox">Alho</li>
+                <li><input type="checkbox">Batata</li>
+                <li><input type="checkbox">Beterraba</li>
+                <li><input type="checkbox">Tapioca</li>
+            </ul>
+        </div>
+
+        <!-- Laticínios -->
+        <div class="section">
+            <h2>Laticínios</h2>
+            <ul>
+                <li><input type="checkbox">Leite</li>
+                <li><input type="checkbox">Queijo</li>
+                <li><input type="checkbox">Manteiga</li>
+                <li><input type="checkbox">Iogurte</li>
+                <li><input type="checkbox">Requeijão</li>
+                <li><input type="checkbox">Creme de leite</li>
+                <li><input type="checkbox">Leite Condensado</li>
+                <li><input type="checkbox">Doce de Leite</li>
+            </ul>
+        </div>
+
+        <!-- Biscoitos -->
+        <div class="section">
+            <h2>Biscoitos</h2>
+            <ul>
+                <li><input type="checkbox">Biscoito de Maisena</li>
+                <li><input type="checkbox">Biscoito Recheado</li>
+                <li><input type="checkbox">Cream Cracker</li>
+                <li><input type="checkbox">Mini Cream</li>
+                <li><input type="checkbox">Bolacha Maria</li>
+            </ul>
+        </div>
+
+        <!-- Açougue -->
+        <div class="section">
+            <h2>Açougue</h2>
+            <ul>
+                <li><input type="checkbox">Carne Bovina</li>
+                <li><input type="checkbox">Carne Suína</li>
+                <li><input type="checkbox">Frango</li>
+                <li><input type="checkbox">Linguiça</li>
+                <li><input type="checkbox">Peixe</li>
+            </ul>
+        </div>
+
+        <!-- Padaria -->
+        <div class="section">
+            <h2>Padaria</h2>
+            <ul>
+                <li><input type="checkbox">Pão Francês</li>
+                <li><input type="checkbox">Pão de Forma</li>
+                <li><input type="checkbox">Pão de Queijo</li>
+                <li><input type="checkbox">Pão de Hamburguer</li>
+            </ul>
+        </div>
+
+        <!-- Grãos -->
+        <div class="section">
+            <h2>Grãos</h2>
+            <ul>
+                <li><input type="checkbox">Arroz</li>
+                <li><input type="checkbox">Feijão</li>
+                <li><input type="checkbox">Macarrão</li>
+                <li><input type="checkbox">Cuscus</li>
+            </ul>
+        </div>
+
+        <!-- Temperos -->
+        <div class="section">
+            <h2>Temperos</h2>
+            <ul>
+                <li><input type="checkbox">Óleo</li>
+                <li><input type="checkbox">Azeite</li>
+                <li><input type="checkbox">Vinagre</li>
+                <li><input type="checkbox">Sal</li>
+                <li><input type="checkbox">Pimenta</li>
+                <li><input type="checkbox">Orégano</li>
+                <li><input type="checkbox">Manjericão</li>
+                <li><input type="checkbox">Alecrim</li>
+                <li><input type="checkbox">Curry</li>
+                <li><input type="checkbox">Ervilha</li>
+                <li><input type="checkbox">Milho</li>
+                <li><input type="checkbox">Azeitona</li>
+            </ul>
+        </div>
+
+        <!-- Higiene Pessoal -->
+        <div class="section">
+            <h2>Higiene Pessoal</h2>
+            <ul>
+                <li><input type="checkbox">Sabonete</li>
+                <li><input type="checkbox">Shampoo</li>
+                <li><input type="checkbox">Pasta de Dente</li>
+                <li><input type="checkbox">Desodorante</li>
+                <li><input type="checkbox">Escova de Dente</li>
+                <li><input type="checkbox">Fio Dental</li>
+                <li><input type="checkbox">Enxaguante Bucal</li>
+            </ul>
+        </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="scripts.js"></script>
 </body>
 </html>
